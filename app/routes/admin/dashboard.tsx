@@ -1,4 +1,4 @@
-import { Header, StatsCard, PackCard, SubscriptionCard } from "../../../components";
+import { Header, StatsCard, PackCard, SubscriptionCard, ConfigTable } from "../../../components";
 
 const Dashboard = () => {
 
@@ -21,7 +21,7 @@ const Dashboard = () => {
   const { type, maxRouter, price, expireDate, expireTime, status } = pack;
 
   return (
-    <main className="dashboard wrapper">
+    <main className="dashboard wrapper w-full h-screen overflow-y-scroll">
       <Header 
         title={`Welcome ${user?.name ?? 'Guest'} to your dashboard 🧩`}
         description="Here you can find your dashboard and essentials about your account."
@@ -63,6 +63,10 @@ const Dashboard = () => {
         />
 
         <SubscriptionCard />
+      </section>
+
+      <section>
+        <ConfigTable />
       </section>
 
     </main>

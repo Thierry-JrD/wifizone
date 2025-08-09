@@ -20,19 +20,43 @@ export const adminItems = [
     id: 1,
     icon: "/assets/icons/favicon.ico",
     label: "Routeur",
-    href: "/all-users",
+    href: "#",
+    dropdown: [
+      {
+        id: 11,
+        icon: "/assets/icons/favicon.ico",
+        label: "Mes Routeurs",
+        href: "/add-router",
+      },
+    ],
   },
   {
     id: 2,
     icon: "/assets/icons/favicon.ico",
     label: "Tarifs",
-    href: "/tarifs",
+    href: "#",
+    dropdown: [
+      {
+        id: 11,
+        icon: "/assets/icons/favicon.ico",
+        label: "Ajouter un tarif",
+        href: "/add-tarif",
+      },
+    ],
   },
   {
     id: 3,
     icon: "/assets/icons/favicon.ico",
     label: "Tickets",
-    href: "/tickets",
+    href: "#",
+    dropdown: [
+      {
+        id: 31,
+        icon: "/assets/icons/favicon.ico",
+        label: "Ajouter un ticket",
+        href: "/add-ticket",
+      },
+    ]
   },
 ];
 
@@ -41,7 +65,7 @@ export const userItems = [
     id: 1,
     icon: "/assets/icons/favicon.ico",
     label: "Ventes",
-    href: "/ventes",
+    href: "/all-users",
   },
   {
     id: 2,
@@ -73,6 +97,196 @@ export const pack = {
   expireTime: "18:00:00", 
   status: "active"
 }
+
+export const data = [
+    {
+      date: '2025-08-08',
+      client: 'Jean Dupont',
+      produit: 'Pain au chocolat',
+      quantité: 3,
+      'prix unitaire': '1.50€',
+      total: '4.50€',
+      'mode de paiement': 'Espèces',
+      statut: 'Payé',
+      actions: 'Voir'
+    },
+    {
+      date: '2025-08-08',
+      client: 'Amina Sow',
+      produit: 'Baguette',
+      quantité: 5,
+      'prix unitaire': '1.00€',
+      total: '5.00€',
+      'mode de paiement': 'Carte',
+      statut: 'Payé',
+      actions: 'Voir'
+    },
+    {
+      date: '2025-08-08',
+      client: 'Carlos Mendes',
+      produit: 'Croissant',
+      quantité: 2,
+      'prix unitaire': '1.20€',
+      total: '2.40€',
+      'mode de paiement': 'Mobile Money',
+      statut: 'En attente',
+      actions: 'Voir'
+    },
+    {
+      date: '2025-08-08',
+      client: 'Fatou Diarra',
+      produit: 'Tarte aux pommes',
+      quantité: 1,
+      'prix unitaire': '3.00€',
+      total: '3.00€',
+      'mode de paiement': 'Carte',
+      statut: 'Payé',
+      actions: 'Voir'
+    },
+    {
+      date: '2025-08-08',
+      client: 'Lucien Koffi',
+      produit: 'Sandwich',
+      quantité: 2,
+      'prix unitaire': '2.50€',
+      total: '5.00€',
+      'mode de paiement': 'Espèces',
+      statut: 'Annulé',
+      actions: 'Voir'
+    },
+    {
+      date: '2025-08-08',
+      client: 'Lucien Koffi',
+      produit: 'Sandwich',
+      quantité: 2,
+      'prix unitaire': '2.50€',
+      total: '5.00€',
+      'mode de paiement': 'Espèces',
+      statut: 'Annulé',
+      actions: 'Voir'
+    },
+    {
+      date: '2025-08-08',
+      client: 'Lucien Koffi',
+      produit: 'Sandwich',
+      quantité: 2,
+      'prix unitaire': '2.50€',
+      total: '5.00€',
+      'mode de paiement': 'Espèces',
+      statut: 'Annulé',
+      actions: 'Voir'
+    },
+    {
+      date: '2025-08-08',
+      client: 'Lucien Koffi',
+      produit: 'Sandwich',
+      quantité: 2,
+      'prix unitaire': '2.50€',
+      total: '5.00€',
+      'mode de paiement': 'Espèces',
+      statut: 'Annulé',
+      actions: 'Voir'
+    },
+    {
+      date: '2025-08-08',
+      client: 'Lucien Koffi',
+      produit: 'Sandwich',
+      quantité: 2,
+      'prix unitaire': '2.50€',
+      total: '5.00€',
+      'mode de paiement': 'Espèces',
+      statut: 'Annulé',
+      actions: 'Voir'
+    },
+    {
+      date: '2025-08-08',
+      client: 'Lucien Koffi',
+      produit: 'Sandwich',
+      quantité: 2,
+      'prix unitaire': '2.50€',
+      total: '5.00€',
+      'mode de paiement': 'Espèces',
+      statut: 'Annulé',
+      actions: 'Voir'
+    },
+    {
+      date: '2025-08-08',
+      client: 'Lucien Koffi',
+      produit: 'Sandwich',
+      quantité: 2,
+      'prix unitaire': '2.50€',
+      total: '5.00€',
+      'mode de paiement': 'Espèces',
+      statut: 'Annulé',
+      actions: 'Voir'
+    },
+    {
+      date: '2025-08-08',
+      client: 'Lucien Koffi',
+      produit: 'Sandwich',
+      quantité: 2,
+      'prix unitaire': '2.50€',
+      total: '5.00€',
+      'mode de paiement': 'Espèces',
+      statut: 'Annulé',
+      actions: 'Voir'
+    },
+    {
+      date: '2025-08-08',
+      client: 'Lucien Koffi',
+      produit: 'Sandwich',
+      quantité: 2,
+      'prix unitaire': '2.50€',
+      total: '5.00€',
+      'mode de paiement': 'Espèces',
+      statut: 'Annulé',
+      actions: 'Voir'
+    },
+    {
+      date: '2025-08-08',
+      client: 'Lucien Koffi',
+      produit: 'Sandwich',
+      quantité: 2,
+      'prix unitaire': '2.50€',
+      total: '5.00€',
+      'mode de paiement': 'Espèces',
+      statut: 'Annulé',
+      actions: 'Voir'
+    },
+    {
+      date: '2025-08-08',
+      client: 'Lucien Koffi',
+      produit: 'Sandwich',
+      quantité: 2,
+      'prix unitaire': '2.50€',
+      total: '5.00€',
+      'mode de paiement': 'Espèces',
+      statut: 'Annulé',
+      actions: 'Voir'
+    },
+    {
+      date: '2025-08-08',
+      client: 'Lucien Koffi',
+      produit: 'Sandwich',
+      quantité: 2,
+      'prix unitaire': '2.50€',
+      total: '5.00€',
+      'mode de paiement': 'Espèces',
+      statut: 'Annulé',
+      actions: 'Voir'
+    },
+    {
+      date: '2025-08-08',
+      client: 'Lucien Koffi',
+      produit: 'Sandwich',
+      quantité: 2,
+      'prix unitaire': '2.50€',
+      total: '5.00€',
+      'mode de paiement': 'Espèces',
+      statut: 'Annulé',
+      actions: 'Voir'
+    },
+  ];
 
 
 //-------------------------------------------------------------------------

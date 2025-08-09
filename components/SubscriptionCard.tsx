@@ -1,6 +1,6 @@
 const SubscriptionCard = () => {
   return (
-    <div className="flex flex-col justify-between stats-card w-[650px]">
+    <div className="flex flex-col justify-between stats-card w-[850px]">
       <div>
         <h3 className="text-base font-bold mb-5">Effectuer un abonnement</h3>
         <div className="flex gap-7">

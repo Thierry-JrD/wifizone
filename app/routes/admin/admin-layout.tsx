@@ -3,7 +3,7 @@ import SidebarComponent from "../../../components/SidebarComponent";
 
 const AdminLayout = () => {
   return (
-    <div className="flex h-screen bg-white">
+    <div className="flex h-screen bg-white overflow-hidden">
       {/*MobileSidebar*/}
       <aside className="max-w-[270px] hidden lg:block">
         <SidebarComponent />
